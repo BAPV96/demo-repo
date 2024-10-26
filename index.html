@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <section id="home" class="home-section">
+    <div class="container">
+      <header>
+        <nav> 
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <section id="home" class="home-section">
+        <div class="container home-container">
+            <div class="intro">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi! I’m Bhumika Soor, a passionate developer.</p>
+                <a href="images/resume.pdf" class="resume-button" target="_blank">View Resume</a>
+            </div>
+            <img src="images/photo.jpg" alt="Home Image" class="home-image">
+        </div>
+    </section>
+    
+ </section>
+  
+ <section id="about" class="about-section">
+    <div class="container about-container">
+        <img src="images/cyber-security-vector.webp" alt="About Me" class="about-image">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>As a B.Tech student in Cybersecurity, I'm passionate about safeguarding the digital world. 
+                Currently in my 3rd year, I'm honing my skills in threat detection, ethical hacking, and data protection.
+                I'm committed to learning and staying ahead in this ever-evolving field. My goal is to become
+                a cybersecurity expert who not only defends against cyber threats but also helps organizations 
+                thrive securely in the digital age.</p> 
+                <p>Cyber Security is the body of technologies, processes, and practices designed to protect networks,
+                    devices, programs, and data from attack, theft, damage, modification, or unauthorized access. This
+                    includes using special programs to check for harmful software and learning how to recognize and avoid
+                    online scams. By practicing good cybersecurity, you can ensure your data stays private and your online 
+                    experiences are secure. It’s also known as Information Security (INFOSEC), Information Assurance (IA), 
+                    or System Security.
+                  </p>
+        </div>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <div class="icon-container">
+                <i class="fas fa-code"></i>
+            </div>
+            <h3>Coding languages</h3>
+            <p>HTML, CSS, JavaScript, C, C++</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon-container">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Cyber Security Tools</h3>
+            <p>Social Engineering attack,Cryptography</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon-container">
+                <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Database handling</h3>
+            <p>React, Express, Mongodb, MySQL</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon-container">
+                <i class="fas fa-database"></i>
+            </div>
+            <h3>Graphic designing</h3>
+            <p>Canva, Figma</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="education-container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-timeline">
+          <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                  <h3 class="degree">Bachelor of Technology in Computer Science (cyber security)</h3>
+                  <span class="university">RTMNU University</span>
+                  <span class="year">2022 - 2026</span>
+                  <p class="description">
+                    Currently studying
+                </p>
+              </div>
+          </div>
+
+          <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                  <h3 class="degree">Higher secondary school</h3>
+                  <span class="university">NC High School</span>
+                  <span class="year">2020 - 2022</span>
+                  <p class="description">
+                      Excelled in mathematics and science, topper of the class.
+                  </p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact-text">I’d love to hear from you! Feel free to reach out for collaborations or just a friendly hello.</p>
+      <div class="contact-form-container">
+          <form action="#" method="post" class="contact-form">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
